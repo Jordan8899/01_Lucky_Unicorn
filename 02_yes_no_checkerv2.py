@@ -8,6 +8,7 @@ def yes_no(question):
 
         if response == "yes" or response == "y":
             response = "yes"
+            return response
 
     # If they say no, output 'display instructions'
         elif response == "no" or response == "n":
