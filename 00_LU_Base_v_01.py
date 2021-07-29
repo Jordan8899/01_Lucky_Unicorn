@@ -24,6 +24,24 @@ def instructions():
     print()
     return ""
 
+def number_check(question, low, high):
+    error = "Please enter a whole number between 0 - 10\n"
+
+    valid = False
+    while not valid:
+        try:
+            # Ask the question
+            response = int(input(question))
+            # If the amount is too low / too high give
+            if low < response <= high:
+                return response
+
+            # Output an Error
+            else:
+                print(error)
+
+        except ValueError:
+            print(error)
 
 # Main Routine goes here...
 played_before = yes_no("Have you played this game before? ")
