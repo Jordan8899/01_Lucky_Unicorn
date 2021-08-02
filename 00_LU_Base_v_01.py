@@ -16,7 +16,6 @@ def yes_no(question):
         else:
             print("Please enter either \"Yes\" or \"No\"")
 
-
 def instructions():
     print("**** How to Play ****")
     print()
@@ -48,5 +47,9 @@ played_before = yes_no("Have you played this game before? ")
 
 if played_before == "no":
     instructions()
+
+how_much = number_check("How much would you like to play with? ", 0, 10)
+
+print("You will be spending ${}".format(how_much))
 
 print("Game Starts")
