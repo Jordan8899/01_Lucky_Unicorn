@@ -15,3 +15,10 @@ for item in range(0, 20):
         balance += 4
 
     elif chosen == "donkey":
+        balance -= 1
+
+    else:
+        balance -= 0.5
+
+    # Output
+    print("Token: {} , Balance: ${:.2f}".format(chosen, balance))
