@@ -14,7 +14,8 @@ while play_again == "":
     balance -= 1
     print("Balance: {}".format(balance))
     print()
-    if balance <1:
+
+    if balance < 1:
         play_again = "xxx"
         print("Sorry you have run out of money")
     else:
