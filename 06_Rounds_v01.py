@@ -19,7 +19,7 @@ while play_again == "":
         play_again = "xxx"
         print("Sorry you have run out of money")
     else:
-        play_again = input("Please press <Enter> to play again or enter 'xxx' to quit")
+        play_again = input("Please press <Enter> to play again or enter 'xxx' to quit ")
 
 
 print()
