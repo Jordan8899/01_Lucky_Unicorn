@@ -19,8 +19,8 @@ while play_again == "":
     # Adjust Balance
     # If the random # is between 1 and 5 this will add $4 to the balance because the random number picked Unicorn
     if 1 <= chosen_num <= 5:
-            chosen = "unicorn"
-            balance += 4
+        chosen = "unicorn"
+        balance += 4
         # If the random number is between 6 and 36 the code will -$1 from the balance and output Donkey
     elif 6 <= chosen_num <= 36:
         chosen = "donkey"
