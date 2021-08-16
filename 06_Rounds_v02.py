@@ -21,10 +21,12 @@ while play_again == "":
     if 1 <= chosen_num <= 5:
         chosen = "unicorn"
         balance += 4
+
         # If the random number is between 6 and 36 the code will -$1 from the balance and output Donkey
     elif 6 <= chosen_num <= 36:
         chosen = "donkey"
         balance -= 1
+
         # If the random number is anything from 37 - 100 it will -$0.5
     else:
         # If the number is even output Horse

@@ -52,7 +52,6 @@ print()
 
 how_much = number_check("How much would you like to play with? ", 0, 10)
 
-
 # Set the balance to test
 balance = how_much
 
